@@ -2,6 +2,11 @@ import React, { useReducer } from "react";
 import AppReducer from "./AppReducer";
 import GlobalContext from "./GlobalContext";
 
+/* 
+    Used My Own Method to Implement Context
+    3 files Structure
+*/
+
 const initialState = {
   transactions: [],
 };
